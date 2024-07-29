@@ -230,9 +230,12 @@ img {
   overflow: hidden;
 }
 .projects__img {
-  width: 100%; /* Ensure image takes full width of its container */
-  transition: 1s;
+  width: 140%;
+  height: 260px; /* Set a consistent height for all images */
+  object-fit: cover; /* Ensures the image covers the entire area without stretching */
+  transition: transform 0.3s ease-in-out;
 }
+
 .projects__img:hover {
   transform: scale(1.1);
 }
