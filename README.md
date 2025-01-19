@@ -11,7 +11,7 @@ Welcome to my personal portfolio! This website is a showcase of my skills, proje
 
 ## 📸 Screenshot of the Website:
 
-![Screenshot of the Portfolio Website](./assets/Screenshot%202025-01-20%20at%203.05.03%20AM.png)
+<img width="1440" alt="Screenshot 2025-01-20 at 3 07 13 AM" src="https://github.com/user-attachments/assets/88bfa879-dfda-4e6a-af60-994324bc4698" />
 
 ---
 
