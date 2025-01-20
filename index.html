@@ -7,7 +7,7 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <title>Suraj Portfolio</title>
+    <title>Suraj's Portfolio</title>
     <style>
         .home__img {
             width: 250px; 
@@ -24,6 +24,9 @@
             object-fit: cover;
         }
     </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+
 </head>
 <body>
     <!-- Header -->
@@ -35,9 +38,6 @@
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Work Experience</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                    
-                    
-                    
                 </ul>
             </div>
             <div class="nav__right">
@@ -49,18 +49,22 @@
         </nav>
     </header>
 
+    
     <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Suraj Naveen</span></h1>
-                <p style="font-size: 19px;">Computer Science & Data Science @ UW Madison</p>
-            </div>
+            <!--===== HOME =====-->
+        <div id="vanta-bg">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Suraj Naveen</span></h1>
+                    <p style="font-size: 19px;">Computer Science & Data Science @ UW Madison</p>
+                </div>
 
-            <div class="home__img">
-                <img class="home__blob-img" src="assets/img/dp_Suraj.jpg" alt="Suraj">
-            </div>
-        </section>
+                <div class="home__img">
+                    <img class="home__blob-img" src="assets/img/dp_Suraj.jpg" alt="Suraj">
+                </div>
+            </section>
+        </div>
+        
 
         <!-- About Section -->
         <section class="about section" id="about">
@@ -70,11 +74,11 @@
                     <img src="assets/img/about.jpg" alt="About Image">
                 </div>
                 <div>
-                    <p style="font-size: 25px;"> <i> I'm an aspiring Full Stack Developer and AI enthusiast with a passion for creating innovative solutions. I have a strong foundation in various programming languages and am eager to contribute to the growth and development of cutting-edge technologies. I thrive on solving complex problems and am always looking for new challenges to tackle. </i></p>           
+                    <p style="font-size: 25px;"> I'm an aspiring Full Stack Developer and AI enthusiast with a drive for crafting innovative solutions. With a solid foundation in diverse programming languages, I'm passionate about contributing to the advancement of cutting-edge technologies. I enjoy tackling complex problems and constantly seek new challenges to push my boundaries and grow. </p>           
                 </div>
             </div>
         </section>
-
+    
                 <!-- Skills Section -->
                 <section class="skills section" id="skills">
                     <h2 class="section-title">Skills</h2>
@@ -250,6 +254,18 @@
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+
+    <script>
+        VANTA.WAVES({
+            el: "#vanta-bg",
+            color: 'white', 
+            waveHeight: 70,
+            shininess: 60,
+            waveSpeed: 0.6,
+            zoom: 0.70
+        });
+    </script>
+    
 </body>
 </html>

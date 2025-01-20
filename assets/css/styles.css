@@ -51,6 +51,13 @@ body {
   color: var(--second-color);
   padding-top: 5rem; /* Adjusted padding to position content correctly */
 }
+#vanta-bg {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  position: relative; /* To layer correctly */
+  overflow: hidden; /* Avoid scrollbars */
+}
+
 
 h1, h2, p {
   margin: 0;
@@ -147,7 +154,7 @@ img {
 }
 
 .nav__link:hover {
-  color: #ffeb3b; /* Example hover color, adjust as needed */
+  color:var(--second-color); /* Example hover color, adjust as needed */
 }
 
 .nav__right {
@@ -194,8 +201,8 @@ img {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 300px; /* Set the desired width */
-  height: 300px; /* Set the desired height */
+  width: 360px; /* Set the desired width */
+  height: 360px; /* Set the desired height */
   object-fit: cover;
   border-radius: 50%; /* Make the image circular */
 }
