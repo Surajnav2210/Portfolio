@@ -7,11 +7,7 @@ Welcome to my personal portfolio! This website is a showcase of my skills, proje
 🌐 **Website Link**:  
 [**Visit My Portfolio**](https://surajnav2210.github.io/Portfolio/)
 
----
-
-## 📸 Screenshot of the Website:
-
-<img width="1440" alt="Screenshot 2025-01-20 at 3 07 13 AM" src="https://github.com/user-attachments/assets/88bfa879-dfda-4e6a-af60-994324bc4698" />
+<img width="1371" alt="Screenshot 2025-01-20 at 2 47 20 PM" src="https://github.com/user-attachments/assets/efffa1e6-8a63-4456-a81e-bbedcbd46828" />
 
 ---
 
@@ -20,6 +16,8 @@ Welcome to my personal portfolio! This website is a showcase of my skills, proje
 - **HTML**
 - **CSS**
 - **JavaScript**
+- **Vanta.js**
+- **Three.js**
 
 ---
 
