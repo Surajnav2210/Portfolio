@@ -1,0 +1,9 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" rx="24" fill="#0F172A"/>
+  <rect x="40" y="40" width="1120" height="520" rx="18" fill="#111827" stroke="#334155"/>
+  <rect x="120" y="180" width="340" height="220" rx="16" fill="#1D4ED8"/>
+  <rect x="510" y="130" width="230" height="90" rx="12" fill="#0EA5E9"/>
+  <rect x="510" y="250" width="310" height="90" rx="12" fill="#06B6D4"/>
+  <rect x="510" y="370" width="250" height="90" rx="12" fill="#22D3EE"/>
+  <text x="120" y="110" fill="#E2E8F0" font-size="46" font-family="Arial, sans-serif">Cloud Data Platform</text>
+</svg>

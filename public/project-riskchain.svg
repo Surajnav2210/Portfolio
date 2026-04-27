@@ -1,0 +1,13 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" rx="24" fill="#111827"/>
+  <rect x="48" y="48" width="1104" height="504" rx="16" fill="#1F2937" stroke="#374151"/>
+  <circle cx="290" cy="220" r="38" fill="#F97316"/>
+  <circle cx="430" cy="320" r="38" fill="#FB7185"/>
+  <circle cx="220" cy="390" r="38" fill="#38BDF8"/>
+  <circle cx="520" cy="180" r="38" fill="#A78BFA"/>
+  <line x1="290" y1="220" x2="430" y2="320" stroke="#E2E8F0" stroke-width="4"/>
+  <line x1="290" y1="220" x2="220" y2="390" stroke="#E2E8F0" stroke-width="4"/>
+  <line x1="430" y1="320" x2="520" y2="180" stroke="#E2E8F0" stroke-width="4"/>
+  <rect x="640" y="160" width="440" height="280" rx="20" fill="#0F172A"/>
+  <text x="88" y="110" fill="#F8FAFC" font-size="46" font-family="Arial, sans-serif">RiskChain</text>
+</svg>

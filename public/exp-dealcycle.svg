@@ -1,0 +1,9 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" rx="24" fill="#0B1324"/>
+  <rect x="52" y="52" width="1096" height="496" rx="18" fill="#111827" stroke="#334155"/>
+  <rect x="120" y="150" width="460" height="300" rx="18" fill="#1E293B"/>
+  <rect x="650" y="170" width="420" height="80" rx="12" fill="#9333EA"/>
+  <rect x="650" y="280" width="320" height="80" rx="12" fill="#A855F7"/>
+  <rect x="650" y="390" width="250" height="60" rx="12" fill="#C084FC"/>
+  <text x="120" y="112" fill="#E2E8F0" font-size="44" font-family="Arial, sans-serif">Dealcycle AI</text>
+</svg>
